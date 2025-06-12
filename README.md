@@ -131,5 +131,15 @@ Where:
 - The Black-Scholes model assumes constant volatility and rates
 - Past performance does not guarantee future results
 
+  
+### Core Components
+
+- **Price Fetching**: Multi-source API integration with fallbacks
+- **Mathematical Engine**: Black-Scholes implementation with scipy
+- **User Interface**: Streamlit-based interactive dashboard
+- **Data Validation**: Input validation and error handling
+- **State Management**: Session state for auto-refresh functionality
+
+
 
 
