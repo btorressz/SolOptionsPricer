@@ -123,5 +123,13 @@ Where:
 - **DeFi Research**: Study Solana ecosystem option strategies
 - **Volatility Analysis**: Test different volatility scenarios
 
+- ## ⚠️ Disclaimers
+
+- This tool is for educational and research purposes only
+- Not financial advice - consult professionals before trading
+- Theoretical prices may differ from actual market prices
+- The Black-Scholes model assumes constant volatility and rates
+- Past performance does not guarantee future results
+
 
 
