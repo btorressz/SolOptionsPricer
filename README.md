@@ -33,3 +33,19 @@ The application uses multiple price sources with automatic fallback:
 4. **Binance API** - Final fallback
 
 No API keys required - all sources use public endpoints.
+
+## 📊 Usage
+
+### Input Parameters
+
+- **Strike Price**: The exercise price of the option (auto-populated with current SOL price)
+- **Expiry Date**: Option expiration date (1-365 days from current date)
+- **Implied Volatility**: Expected price volatility (1-200%)
+- **Risk-free Rate**: Risk-free interest rate (0-10%)
+
+### Output
+
+- **Call Option Price**: Theoretical call option value
+- **Put Option Price**: Theoretical put option value
+- **Option Greeks**: Risk sensitivities (Delta, Gamma, Theta, Vega)
+- **Option Status**: Moneyness and intrinsic values
