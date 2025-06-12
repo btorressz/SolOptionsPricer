@@ -79,3 +79,24 @@ Where:
 - **Theta**: Time decay (price change per day)
 - **Vega**: Volatility sensitivity (per percentage point)
 
+  ## 🌐 API Integration
+
+### Price Source Priority
+
+1. **Jupiter API**: `https://price.jup.ag/v4/price`
+   - Optimized for Solana ecosystem pricing
+   - Most accurate for DeFi applications
+
+2. **Kraken API**: `https://api.kraken.com/0/public/Ticker`
+   - Reliable traditional exchange
+   - High uptime and stability
+
+3. **CoinGecko API**: `https://api.coingecko.com/api/v3/simple/price`
+   - Comprehensive crypto data
+   - Rate-limited for free tier
+
+4. **Binance API**: `https://api.binance.com/api/v3/ticker/price`
+   - Large volume exchange
+   - May be geo-restricted
+
+
