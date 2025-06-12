@@ -140,6 +140,23 @@ Where:
 - **Data Validation**: Input validation and error handling
 - **State Management**: Session state for auto-refresh functionality
 
+  ## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🔮 Future Enhancements
+
+- [ ] Historical volatility calculation
+- [ ] Implied volatility calculator
+- [ ] Multiple cryptocurrency support
+- [ ] Options chain visualization
+- [ ] Portfolio Greeks calculation
+- [ ] Export functionality for data
+- [ ] Advanced charting features
+- [ ] WebSocket real-time feeds
+
+---
+
 
 
 
