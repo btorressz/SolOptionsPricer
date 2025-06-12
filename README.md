@@ -98,5 +98,30 @@ Where:
 4. **Binance API**: `https://api.binance.com/api/v3/ticker/price`
    - Large volume exchange
    - May be geo-restricted
+  
+     
+## 🔄 Auto-refresh Feature
+
+- Automatic price updates every 30 seconds when enabled
+- Manual refresh button for immediate updates
+- Displays last update timestamp and data source
+- Graceful error handling with user notifications
+
+## 🎨 User Interface
+
+- **Light Theme**: Professional trading interface
+- **Responsive Design**: Works on desktop and mobile
+- **Interactive Elements**: Smooth sliders and buttons
+- **Real-time Updates**: Live price and calculation updates
+- **Error Handling**: Clear error messages and fallback options
+
+## 📈 Use Cases
+
+- **Options Trading**: Calculate theoretical option prices for SOL
+- **Risk Management**: Analyze option Greeks for portfolio hedging
+- **Education**: Learn options pricing and sensitivity analysis
+- **DeFi Research**: Study Solana ecosystem option strategies
+- **Volatility Analysis**: Test different volatility scenarios
+
 
 
