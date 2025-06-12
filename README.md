@@ -53,3 +53,29 @@ No API keys required - all sources use public endpoints.
   ## 🧮 Black-Scholes Model
 
 The application implements the complete Black-Scholes formula for European options:
+
+
+### Call Option Price
+```
+C = S₀ × N(d₁) - K × e^(-r×T) × N(d₂)
+```
+
+### Put Option Price
+```
+P = K × e^(-r×T) × N(-d₂) - S₀ × N(-d₁)
+```
+
+Where:
+- `S₀` = Current SOL price
+- `K` = Strike price
+- `r` = Risk-free rate
+- `T` = Time to expiry
+- `N()` = Cumulative standard normal distribution
+
+### Greeks Calculations
+
+- **Delta**: Price sensitivity to underlying price changes
+- **Gamma**: Delta sensitivity to underlying price changes
+- **Theta**: Time decay (price change per day)
+- **Vega**: Volatility sensitivity (per percentage point)
+
