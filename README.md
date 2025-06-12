@@ -49,3 +49,7 @@ No API keys required - all sources use public endpoints.
 - **Put Option Price**: Theoretical put option value
 - **Option Greeks**: Risk sensitivities (Delta, Gamma, Theta, Vega)
 - **Option Status**: Moneyness and intrinsic values
+
+  ## 🧮 Black-Scholes Model
+
+The application implements the complete Black-Scholes formula for European options:
