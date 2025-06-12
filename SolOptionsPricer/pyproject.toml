@@ -1,0 +1,13 @@
+[project]
+name = "sol-options-pricer"
+version = "0.1.0"
+description = "Real-time Solana options pricing engine using Black-Scholes model"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "plotly>=6.1.2",
+    "requests>=2.32.4",
+    "scipy>=1.15.3",
+    "streamlit>=1.45.1",
+]
