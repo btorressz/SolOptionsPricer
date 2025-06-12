@@ -155,6 +155,16 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [ ] Advanced charting features
 - [ ] WebSocket real-time feeds
 
+
+
+## 📸 Screenshots
+
+![](https://github.com/btorressz/SolOptionsPricer/blob/main/Solopscreenshot1.jpg?raw=true)
+
+![](https://github.com/btorressz/SolOptionsPricer/blob/main/Solopscreenshot2.jpg?raw=true)
+
+
+
 ---
 
 
